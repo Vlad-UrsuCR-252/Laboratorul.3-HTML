@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Chestionar Clorofila</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<h1>Chestionar despre Clorofilă</h1>
+
+<form id="formular">
+
+<label>Nume:</label>
+<input type="text" id="nume"><br><br>
+
+<label>Vârsta:</label>
+<input type="number" id="varsta"><br><br>
+
+<label>Știi ce este clorofila?</label>
+<select id="raspuns">
+<option value="da">Da</option>
+<option value="nu">Nu</option>
+</select>
+
+<br><br>
+
+<button type="button" onclick="proceseaza()">Trimite</button>
+
+</form>
+
+<br>
+
+<p id="rezultat"></p>
+
+<img src="images/clorofila.jpg" id="imagine" width="300">
+
+</body>
+</html>
