@@ -1,0 +1,13 @@
+<script>
+
+function schimbareCuloare(){
+
+document.body.style.backgroundColor="lightgreen"
+
+}
+
+</script>
+
+<button onclick="schimbareCuloare()">
+Schimbă culoarea paginii
+</button>
