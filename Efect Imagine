@@ -1,0 +1,9 @@
+<script>
+
+function mareste(){
+
+document.getElementById("img").style.transform="scale(1.3)"
+
+}
+
+</script>
